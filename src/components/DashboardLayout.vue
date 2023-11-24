@@ -84,7 +84,7 @@
     </div>
   </Disclosure>
 
-  <section class="flex justify-center mt-28 w-screen">
+  <section class="flex justify-center mt-28 w-full">
     <RouterView />
   </section>
 </template>
