@@ -14,14 +14,33 @@
           </DisclosureButton>
         </div>
         <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-          <div class="flex flex-shrink-0 items-center">
-            <img
-              class="h-8 w-auto"
-              src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
-              alt="Your Company"
-            />
-          </div>
           <!-- search  bar -->
+          <div class="relative">
+            <input
+              type="text"
+              placeholder="Search..."
+              class="bg-gray-200 text-gray-800 border border-gray-300 rounded-md py-2 px-8 focus:outline-none focus:ring focus:border-blue-300"
+            />
+            <div class="absolute inset-y-0 right-0 flex items-center">
+              <button type="submit" class="text-blue-500 px-4 py-2">
+                <!-- SVG Search Icon -->
+                <svg
+                  class="h-5 w-5"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M21 21l-5.2-5.2M15 10.5a7.5 7.5 0 11-15 0 7.5 7.5 0 0115 0z"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+          </div>
         </div>
         <div
           class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0"
@@ -45,7 +64,7 @@
                 <span class="sr-only">Open user menu</span>
                 <img
                   class="h-8 w-8 rounded-full"
-                  src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_2-JFjA1Fk0fVXDBBVjz48JlwXPZEhjDBPA&usqp=CAU"
                   alt=""
                 />
               </MenuButton>
